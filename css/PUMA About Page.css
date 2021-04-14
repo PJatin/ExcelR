@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header section{
+    width: 5%;
+    padding-left: 30px;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: #eb522b;
+    font-size: 103%;
+}
+.MiddleContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 32px;
+}
+.leftSidebar{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.leftSidebar ul{
+    list-style: none;    
+}
+.leftSidebar ul li{
+    padding: 5px;
+    margin: 5px;
+}
+.Description{
+    padding: 10px;
+    margin: 30px;
+    font-family: fantasy;
+}
+.slider{
+    width: 100%;
+}
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+h2{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: white 1px solid;
+}
+footer{
+    background-color: black;
+    color: #818181;
+}
+.copyright-info{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+.copyright-info span{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-col section ul{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.footer-col section ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.SocialMediaLinks a{
+    margin: 1px;
+    padding: 1px;
+    font-size: 30px;
+}
+.SocialMediaLinks{
+    flex: 3;
+}
