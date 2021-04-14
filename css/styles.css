@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    background-color: black;
+}
+#logo{
+    flex: 1;
+    padding: 1%;
+}
+nav{
+    flex: 3;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    flex: 1;
+    font-size: small;
+    color: white;
+    padding: 1%;
+}
+#mainContainer{
+    display: flex;
+}
+#leftSidebar{
+    flex: 1;
+}
+#mainContent{
+    flex: 3;
+}
+#rightSidebar{
+    flex: 1;
+}
+footer{
+    display: flex;
+}
+footer section{
+    flex: 1;
+}
